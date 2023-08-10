@@ -1,0 +1,26 @@
+.center {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.surveyContainer {
+  display: flex;
+  font-size: 10pt;
+}
+
+Slider {
+  margin-left: 15px;
+}
+
+.alignLeft {
+  text-align: left;
+  margin-left: 7px;
+}
+
+.center2 {
+  text-align: center;
+}
+
+.center3 {
+  margin-left: 97px;
+}

@@ -1,0 +1,162 @@
+.popupContainer {
+  /* create the container box and change the opcaity to match mockup */
+  height: 500px;
+  width: 100%;
+  background-color: rgba(169, 169, 169, 0.2);
+}
+
+#currentStatusBox {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 150px;
+  height: 36.5px;
+}
+
+/* We can change the values of all of the colors this way if we want to change shades */
+.green {
+  background-color: rgb(52, 193, 52);
+}
+
+.yellow {
+  background-color: rgb(203, 203, 12);
+}
+
+.red {
+  background-color: rgb(192, 14, 14);
+}
+
+/* This is the box that is seen in alert details at all times */
+.currentStatusDetail {
+  width: 100px;
+  height: 50px;
+  align-items: center;
+  margin-left: 37%;
+}
+
+.colorBoxesContainer {
+  display: flex;
+}
+
+/* Add spacing between status boxes */
+.colorBox {
+  margin-right: auto;
+  color: black;
+  width: 100px;
+}
+
+.popup {
+  text-align: center;
+  align-items: center;
+}
+
+.eventBoxes {
+  height: 100px;
+  width: 40%;
+  background-color: rgb(229, 224, 235);
+  color: black;
+  margin-right: 10%;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10%;
+}
+.editEvent {
+  margin-right: 90%;
+  position: relative;
+  left: 90%;
+  bottom: 20%;
+}
+
+.page {
+  text-align: center;
+}
+.newEvent {
+  margin-top: 25px;
+
+  text-align: center;
+}
+
+/* The color of colorBars are determined with the colors above */
+.colorBars {
+  width: 70%;
+  height: 60px;
+  margin-left: 15%;
+  align-items: center;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 10%;
+  font-size: 16px;
+}
+
+/* The padding in these two are for centering the alert and the time in the colorBar */
+.time {
+  padding-left: 5%;
+  text-align: left;
+}
+
+.emergencyNotes {
+  padding-left: 5%;
+}
+.locationNotes {
+  padding-left: 5%;
+}
+
+/* this is where is says event details like Taylor swift us bank */
+.eventText {
+  text-align: center;
+}
+
+.adminMainText {
+  text-align: center;
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+  color: rgba(147, 20, 20, 0.6);
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4375em;
+  letter-spacing: 0.00938em;
+  position: relative;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: calc(133% - 32px);
+  position: absolute;
+  -webkit-transform: translate(14px, -9px) scale(0.75);
+  -moz-transform: translate(14px, -9px) scale(0.75);
+  -ms-transform: translate(14px, -9px) scale(0.75);
+  transform: translate(14px, -9px) scale(0.75);
+  -webkit-transition: color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms,
+    -webkit-transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms,
+    max-width 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  transition: color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms,
+    transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms,
+    max-width 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  z-index: 1;
+  pointer-events: auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+a {
+  font-size: 10pt;
+}
+
+c {
+  align-self: center;
+}
+
+.smalltext {
+  font-size: 8pt;
+}
